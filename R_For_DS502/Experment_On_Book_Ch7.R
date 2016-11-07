@@ -140,4 +140,6 @@ gam.lr.s=gam(I(wage>250)~year+s(age,df=5)+education,family=binomial,data=Wage,
              subset=(education!="1. < HS Grad"))
 par(mfrow=c(1,3))
 plot(gam.lr.s,se=T,col="green")
-             
+
+
+      
